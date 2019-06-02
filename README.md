@@ -1,5 +1,5 @@
 Systemy Operacyjne 2 - projekt 3
-Create date: 21.05.2019
+Data zakończenia: 21.05.2019
 
 Projetk polegał na stworzeniu programu wielowątkoewgo, który symuluje działanie firmy dostawczej typu "InPost".
 Pięć samochodów jeździ od firmy do pięciu paczkomatów. 
@@ -19,6 +19,8 @@ Biblioteki, z których korzystałem najwięcej:
 thread, mutex, queue, condition_variable, ncurses.h
 
 --English description
+Operational Systems - project 3
+Create date: 21.05.2019
 
 Project consisted creating multithread's program, which simulates how delivery company works e.g "InPost".
 Five cars drives between company and five pack machines.
