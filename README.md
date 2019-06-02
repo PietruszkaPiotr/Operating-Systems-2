@@ -19,6 +19,7 @@ Biblioteki, z których korzystałem najwięcej:
 thread, mutex, queue, condition_variable, ncurses.h
 
 --English description
+
 Operational Systems - project 3
 Create date: 21.05.2019
 
