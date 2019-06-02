@@ -20,7 +20,7 @@ thread, mutex, queue, condition_variable, ncurses.h
 
 --English description
 
-Operating Systems - project 3
+Operating Systems 2 - project 3
 Create date: 21.05.2019
 
 Project consisted creating multithread's program, which simulates how delivery company works e.g "InPost".
