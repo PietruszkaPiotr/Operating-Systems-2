@@ -19,6 +19,7 @@ Biblioteki, z których korzystałem najwięcej:
 thread, mutex, queue, condition_variable, ncurses.h
 
 --English description
+
 Project consisted creating multithread's program, which simulates how delivery company works e.g "InPost".
 Five cars drives between company and five pack machines.
 Cars and pack machines have limited space.
