@@ -212,7 +212,7 @@ int main() {
     shared = new Shared(nPM);
 
     for(int i=0; i<nPM; i++) 
-	destPM[i]=16;
+		destPM[i]=16;
 
     std::vector<std::thread> cars;
     std::vector<std::thread> clients;
@@ -222,15 +222,15 @@ int main() {
     std::thread exitThread(stop);
     std::thread firmThread(givePacks);
     for(int i=0; i<nCar; i++) {
-	shared->addCar(rand()% 20000 + 50000);
-	cars.push_back(std::thread(carMoving, i));
+		shared->addCar(rand()% 20000 + 50000);
+		cars.push_back(std::thread(carMoving, i));
     }
     for(int i=0; i<nPM; i++) {
-	shared->addClient(rand()% 25000 + 75000);
-	clients.push_back(std::thread(clientMoving, i));
+		shared->addClient(rand()% 25000 + 75000);
+		clients.push_back(std::thread(clientMoving, i));
     }
     for(int i=0; i<nPM; i++)
-	PMs.push_back(std::thread(takePacks, i));
+		PMs.push_back(std::thread(takePacks, i));
 
 
     for(int i=0; i<nCar; i++) cars[i].join();
